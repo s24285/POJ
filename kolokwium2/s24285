@@ -1,0 +1,25 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println(sum (new String [] {"1", "2"}));
+
+    }
+
+    public static String sum (String [] ar) {
+
+        ar = new String [4];
+        ar [0] = "1";
+        ar [1] = "1";
+        ar [2] = "0";
+        ar [3] = "1";
+
+        String suma;
+        for (int i=0; i< ar.length; i++) {
+            Integer.parseInt (suma) += ar [i];
+        }
+        return suma;
+
+    }
+}
