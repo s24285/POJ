@@ -29,7 +29,7 @@ public class Prostokat {
     }
 
     public double przekatna (double param1) {
-        return (Math.sqrt((bok1 * bok1) + (bok2 * bok2)) * 2.5);
+        return (Math.sqrt((bok1 * bok1) + (bok2 * bok2)) * param1);
     }
 
     public double przekatna () {
@@ -37,7 +37,7 @@ public class Prostokat {
     }
 
     public int przekatna (int param2) {
-        return (int) (przekatna() * 2);
+        return (int) (przekatna() * param2);
     }
 
 }
