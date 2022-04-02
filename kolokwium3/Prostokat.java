@@ -37,7 +37,7 @@ public class Prostokat {
     }
 
     public int przekatna (int param2) {
-        return (int) (bok1 * Math.sqrt(2) * 2);
+        return (int) (przekatna() * 2);
     }
 
 }
