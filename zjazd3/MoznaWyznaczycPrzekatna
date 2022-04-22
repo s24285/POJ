@@ -1,0 +1,6 @@
+package com.company;
+
+public interface MoznaWyznaczycPrzekatna extends MaWlasnosciRownolegloboku{
+
+    public double przekatna();
+}
