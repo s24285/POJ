@@ -1,0 +1,9 @@
+package com.company;
+
+public interface MoznaWyznaczycWielokrotnoscPrzekatnej extends MoznaWyznaczycPrzekatna {
+
+    public double wielokrotnoscPrzekatnej (double wielokrotnosc);
+
+    public int wielokrotnoscPrzekatnej (int wielokrotnosc);
+
+}
