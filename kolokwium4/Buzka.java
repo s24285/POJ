@@ -38,4 +38,7 @@ public class Buzka implements PrzedstawiaEmocje, Rysowalny, Skalowalny {
         return true;
     }
 
+    public String toString() {
+        return ":-(";
+    }
 }
